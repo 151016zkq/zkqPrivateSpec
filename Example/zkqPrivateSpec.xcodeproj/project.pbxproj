@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* zkqPrivateSpec_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zkqPrivateSpec_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B6C9EBD90CFD8C35E544139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B6C9EBD90CFD8C35E544139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		747899CD27B81263F39B3A7C /* Pods-zkqPrivateSpec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zkqPrivateSpec_Example.release.xcconfig"; path = "Target Support Files/Pods-zkqPrivateSpec_Example/Pods-zkqPrivateSpec_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D1571E23D8F29AF5E867E1D7 /* zkqPrivateSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = zkqPrivateSpec.podspec; path = ../zkqPrivateSpec.podspec; sourceTree = "<group>"; };
+		D1571E23D8F29AF5E867E1D7 /* zkqPrivateSpec.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = zkqPrivateSpec.podspec; path = ../zkqPrivateSpec.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D93E7213CA1380EA620B93A1 /* Pods-zkqPrivateSpec_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zkqPrivateSpec_Tests.release.xcconfig"; path = "Target Support Files/Pods-zkqPrivateSpec_Tests/Pods-zkqPrivateSpec_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E75EECF1419A5432D6D69C0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E75EECF1419A5432D6D69C0F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				2B9C5E0D85B3B806354CFB6E /* Pods-zkqPrivateSpec_Tests.debug.xcconfig */,
 				D93E7213CA1380EA620B93A1 /* Pods-zkqPrivateSpec_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

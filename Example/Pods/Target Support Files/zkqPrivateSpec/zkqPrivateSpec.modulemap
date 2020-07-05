@@ -1,0 +1,6 @@
+framework module zkqPrivateSpec {
+  umbrella header "zkqPrivateSpec-umbrella.h"
+
+  export *
+  module * { export * }
+}
